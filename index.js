@@ -13,12 +13,12 @@ align: 'left',
 gradient: ['magenta', 'red']
 })
 
-CFonts.say('----------------- HAMMA -----------------', {
+CFonts.say('----------------- AMBYARBOT -----------------', {
     font: 'console',
     align: 'center',
     gradient: ['red', 'yellow']
 })
-CFonts.say('Welcome In\nTermux Bot Wa', {
+CFonts.say('Welcome In\nVPS Bot Wa', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
