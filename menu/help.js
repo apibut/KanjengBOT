@@ -87,7 +87,7 @@ ${yt}
 [+] ${a}PENYEDIA REST API${a}
 [+] ${a}CONTENT CREATOR BOT WHATSAPP${a}
 
-╰──────≽ *Recode Hamma*`
+╰──────≽ *Recode AmbyarBOT*`
 }
 
 exports.help = help
@@ -187,10 +187,10 @@ const donasi = (name) => {
 	return `       
 ╭─「 *DONASI AGAR BOT TETAP ONLINE* 」
 
-✓ ${a}Pulsa: 089666320545${a}
+✓ ${a}Pulsa: 6281334361732${a}
        *15k Invite Bot Ke Grup selama 1 bulan*
 	   
-✓ ${a}DANA: 089666320545${a}
+✓ ${a}DANA: 6281334361732${a}
        *10k Invite Bot Ke Group Selama 1 Bulan*
 
 ╰─────「 *BY ${name}* 」
