@@ -107,9 +107,9 @@ const { wait, simih, getBuffer, h2k, banner, generateMessageID, getGroupAdmins, 
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Hamma\n'
-            + 'ORG:Owner Oppai;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6289666320545:+62 896-6632-0545\n'
+            + 'FN:Mr.1541\n'
+            + 'ORG:Owner Mr.1541;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6281325714976:+62 813-2571-4976\n'
             + 'END:VCARD'
 
 function kyun(seconds){
@@ -140,7 +140,7 @@ return '```' + string + '```'
 }
 
 function addMetadata(packname, author) {
-				if (!packname) packname = 'KanjengBOT'; if (!author) author = 'Hamma';
+				if (!packname) packname = 'AMBYAR-BOT'; if (!author) author = 'Mr.1541';
 				author = author.replace(/[^a-zA-Z0-9]/g, '');
 				let name = `${author}_${packname}`
 
@@ -684,7 +684,7 @@ return new Promise(resolve => setTimeout(resolve, ms));
 		case 'daftar':
 		case 'verify':
 					hamma.updatePresence(from, Presence.composing)
-					if (isUser) return reply('kamu sudah Menjadi Temen KANJENG BOT :D')
+					if (isUser) return reply('kamu sudah Menjadi Temen AMBYAR BOT :D')
 					if (isBanned) return reply(mess.only.benned)
 					user.push(sender)
 					fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
@@ -984,7 +984,7 @@ return new Promise(resolve => setTimeout(resolve, ms));
 					exec(`wget ${anu1} -O ${ranp} && ffmpeg -i ${ranp} -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${rano}`, (err) => {
 					fs.unlinkSync(ranp)
 					if (err) return reply(mess.error.stick)
-					exec(`webpmux -set exif ${addMetadata('BotTikel', 'Hamma')} ${rano} -o ${rano}`, async (error) => {
+					exec(`webpmux -set exif ${addMetadata('BotTikel', 'mr1541')} ${rano} -o ${rano}`, async (error) => {
 					if (error) return reply(mess.error.stick)
 					hamma.sendMessage(from, fs.readFileSync(rano), sticker, {quoted: mek})
 					fs.unlinkSync(rano)
