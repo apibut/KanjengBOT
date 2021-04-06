@@ -34,9 +34,9 @@ return `
 ╰────────────────────────
 
 [+] *${prefix}fbgoldbutton TEXT*
-       _Example: ${prefix}fbgoldbutton Hamma_
+       _Example: ${prefix}fbgoldbutton adul_
 [+] *${prefix}tts id TEXT*
-       _Example: ${prefix}tts id Hamma_
+       _Example: ${prefix}tts id adul_
 ╰────────────────────────
 
 [+] *${prefix}stiker*
@@ -62,7 +62,7 @@ return `
 
 ╰────────────────────────
 
-${a} TELEGRAM = ${a} *https://t.me/maHamma*
+${a} TELEGRAM = ${a} *https://t.me/JSTFREENET*
 `
 }
 exports.creator = creator
