@@ -33,7 +33,7 @@ return `
 
 ╰────────────────────────
 
-${a} TELEGRAM = ${a} *https://t.me/maHamma*
+${a} TELEGRAM = ${a} *https://t.me/JSTFREENET*
 `
 }
 exports.encrypt = encrypt
