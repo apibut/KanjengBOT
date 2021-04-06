@@ -16,16 +16,16 @@ return `
 [+] *${prefix}kapankah aku menikah?*
 [+] *${prefix}bisakah aku memilikimu?*
 [+] *${prefix}rate reply something*
-[+] *${prefix}watak Hamma*
-[+] *${prefix}hobby Hamma*
-[+] *${prefix}gantengcek Hamma*
+[+] *${prefix}watak adul*
+[+] *${prefix}hobby adul*
+[+] *${prefix}gantengcek adul*
 [+] *${prefix}cantikcek Raisa*
-[+] *${prefix}persengay Burhan*
-[+] *${prefix}pbucin Hamma*
+[+] *${prefix}persengay adul*
+[+] *${prefix}pbucin adul*
 
 ╰────────────────────────
 
-${a} TELEGRAM = ${a} *https://t.me/maHamma*
+${a} TELEGRAM = ${a} *https://t.me/JSTFREENET*
 ` 
 }
 exports.primbon = primbon
